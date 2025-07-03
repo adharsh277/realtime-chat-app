@@ -10,7 +10,7 @@
 
 ### 🚀 Live Demo
 
-🔗 *(https://realtime-chat-app-latest-d4n4.onrender.com)
+🔗 https://realtime-chat-app-latest-d4n4.onrender.com
 
 ---
 
