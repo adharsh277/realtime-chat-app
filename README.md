@@ -10,8 +10,7 @@
 
 ### 🚀 Live Demo
 
-🔗 [https://your-app-name.azurewebsites.net](https://your-app-name.azurewebsites.net)  
-> *(Replace with your actual Azure App URL)*
+🔗 *(https://realtime-chat-app-latest-d4n4.onrender.com)
 
 ---
 
