@@ -78,7 +78,8 @@ This project uses GitHub Actions for automation:
 ```bash
 # Pull the image manually (optional)
 docker pull aadhi160/realtime-chat-app:latest
-🌐 Deployment
+
+## 🌐 Deployment
 App is deployed live using Render:
 
 Service type: Web Service (Docker image)
