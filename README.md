@@ -2,7 +2,6 @@
 
 ![Render](https://img.shields.io/badge/Render-Deployed-blueviolet?logo=render)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-green?logo=docker)
-![CI/CD](https://img.shields.io/badge/GitHub%20Actions-CI/CD-Automation-orange?logo=githubactions)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-RealTimeMessaging-black?logo=socket.io)
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-lightgreen?logo=node.js)
 
