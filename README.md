@@ -1,6 +1,6 @@
-# 💬 Real-Time Chat App using Node.js, Docker, GitHub Actions, and Azure
+# 💬 Real-Time Chat App using Node.js, Docker, GitHub Actions, and Render
 
-![Azure](https://img.shields.io/badge/Azure-AppService-blue?logo=microsoftazure)
+![Render](https://img.shields.io/badge/Render-Deployed-blueviolet?logo=render)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-green?logo=docker)
 ![CI/CD](https://img.shields.io/badge/GitHub%20Actions-CI/CD-Automation-orange?logo=githubactions)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-RealTimeMessaging-black?logo=socket.io)
@@ -10,7 +10,8 @@
 
 ### 🚀 Live Demo
 
-🔗 https://realtime-chat-app-latest-d4n4.onrender.com
+🔗 [https://your-render-url.onrender.com](https://your-render-url.onrender.com)  
+> *(Replace with your actual Render URL)*
 
 ---
 
@@ -18,12 +19,12 @@
 
 This is a **cloud-native real-time chat application** built with:
 
-- 🔌 **Node.js + Express + Socket.IO** for real-time communication
+- 🔌 **Node.js + Express + Socket.IO** for real-time messaging
 - 🐳 **Docker** for containerization
-- ⚙️ **GitHub Actions** for CI/CD automation
-- ☁️ **Azure App Service** for live deployment
+- ⚙️ **GitHub Actions** for automated CI/CD
+- 🚀 **Render** for live hosting
 
-It allows users to chat instantly through a minimal frontend, powered by WebSockets for a blazing fast real-time experience.
+A simple, powerful chat platform to message instantly across tabs and devices.
 
 ---
 
@@ -35,7 +36,7 @@ It allows users to chat instantly through a minimal frontend, powered by WebSock
 | ⚙️ Backend        | [Node.js](https://nodejs.org/) + [Express](https://expressjs.com/) |
 | 🐳 Containerization | [Docker](https://www.docker.com/)                      |
 | 🔁 CI/CD          | [GitHub Actions](https://github.com/features/actions) |
-| ☁️ Hosting        | [Azure App Service](https://azure.microsoft.com/en-in/products/app-service/) |
+| 🌐 Hosting        | [Render](https://render.com/)                         |
 | 📦 Registry       | [Docker Hub](https://hub.docker.com/u/aadhi160)       |
 
 ---
@@ -59,13 +60,13 @@ Edit
 
 ## 🔄 CI/CD Pipeline (GitHub Actions)
 
-This project uses GitHub Actions for automated builds and deployment:
+This project uses GitHub Actions for automation:
 
-1. On every push to `main`:
-2. Builds Docker image using Buildx
+1. On every push to `main`
+2. Docker builds the image using Buildx
 3. Authenticates with [Docker Hub](https://hub.docker.com/)
-4. Pushes image: `aadhi160/realtime-chat-app:latest`
-5. Azure App Service pulls and runs the latest image automatically
+4. Pushes: `aadhi160/realtime-chat-app:latest`
+5. Render pulls & redeploys automatically
 
 ---
 
@@ -78,13 +79,13 @@ This project uses GitHub Actions for automated builds and deployment:
 # Pull the image manually (optional)
 docker pull aadhi160/realtime-chat-app:latest
 🌐 Deployment
-Hosted live using Azure App Service with:
+App is deployed live using Render:
 
-Linux-based App Plan
+Service type: Web Service (Docker image)
 
-Container source: Docker Hub
+Port: 3000
 
-Exposed port: 3000
+Auto-deploys from Docker Hub
 
 🛠️ Getting Started Locally
 Prerequisites
@@ -108,26 +109,4 @@ Then visit: http://localhost:3000
 
 🙌 Credits
 Built by Adharsh U — DevOps & Cloud Enthusiast
-Deployed using modern cloud-native DevOps practices 💙
-
-📄 License
-MIT License. Feel free to use, modify, and deploy 🚀
-
-yaml
-Copy
-Edit
-
----
-
-### 🔧 Next Step for You
-
-Replace this part:
-
-```markdown
-🔗 [https://your-app-name.azurewebsites.net](https://your-app-name.azurewebsites.net)
-With your actual Azure live app URL. Example:
-
-less
-Copy
-Edit
-🔗 [https://chat-app.azurewebsites.net](https://chat-app.azurewebsites.net)
+Deployed using modern CI/CD + containerization 💙
